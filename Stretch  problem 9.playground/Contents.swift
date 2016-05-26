@@ -4,22 +4,22 @@ import UIKit
 
 var str = "Hello, playground"
 
-var intArray: [Int] = [0,14,70,93,6,32,21,99,2,7]
+var intArray = [0,14,70,93,6,32,21,99,2,7]
 
-func loopfunc(intArray: [Int]) {
-    for i in intArray {
-        if i > 50 {
-            print ("low")
+func loopfunc(numbers: [Int]) {
+    for number in numbers {
+        if number < 50 {
+            print ("high")
         } else {
-                print("high")
+                print("low")
             }
-        if i % 13 == 0 {
+        if number % 13 == 0 {
             print("didnt learn this one in school")
             
         } else {
             print("thats easy")
         }
-        if i == Int +1
+       
         
     }
     
@@ -27,4 +27,4 @@ func loopfunc(intArray: [Int]) {
     
     }
 
-print(intArray)
+loopfunc(intArray)
